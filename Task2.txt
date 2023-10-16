@@ -1,4 +1,4 @@
-QUESTION
+QUESTION 2
     Given two sets of elements, find the sum of all distinct elements from the set. In other words, find the sum of all elements 
     which are present in either of the given set.
     Example:
@@ -21,4 +21,4 @@ STEP 5: At every iteration of the loop:
 
 STEP 6: Repeat step 4 to 5 to compare arr2 to arr1
 STEP 7: Exit the loop
-STEP 8: Print out the updated value for sum variable outside both loops.
+STEP 8: Print out the value for sum variable outside both loops.
