@@ -1,0 +1,29 @@
+QUESTION 1
+Write an algorithm that read a sentence, which ends with a point, character by character to determine:
+The number of words in the sentence (assuming that the words are separated by a single space).
+The number of vowels in the sentence.
+
+ANSWER
+ 
+STEP 1: Create a string array myArray with integer word_count, vowel_count variables
+STEP 2: Initialize the word_count and vowel_count variables to zero to keep track of the word count and vowel count respectively
+STEP 3: Input the sentence
+STEP 4: Store the sentence inside the myArray variable created in step 1
+STEP 5: Iterate through myArray to select each character.
+STEP 6: At every Iteration we want to Check
+        (a) For counting words
+         i. if the character at index position i myArray[i] is equal to a space delimeter (" ") and if the character next to it myArray[i + 1] contains an alphabetic letter.
+        (b) For counting vowels
+         i. if the character at index position i myArray[i] is equal to any of the vowel letters (a , e, i, o , u)
+        When all the conditions listed above are met, we increment and update the value of word_count and vowel_count variables        
+STEP 7: Exit the loop
+STEP 8: Increment and update the word_count variable to count the last word
+STEP 9: Print out the values inside the word_count and vowel_count variable
+
+
+
+         
+
+
+
+
