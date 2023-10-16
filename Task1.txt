@@ -20,5 +20,3 @@ STEP 6: At every Iteration we want to Check
 STEP 7: Exit the loop
 STEP 8: Increment and update the word_count variable to count the last word
 STEP 9: Print out the values inside the word_count and vowel_count variable
-
-
